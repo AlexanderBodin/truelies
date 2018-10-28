@@ -14,8 +14,7 @@
 2. Change working directory to `truelies`.
     - `cd truelies`
 3. Install truelies using the Makefile.
-    - `make install`
-    - **NOTE**: You may have to run this as root.
+    - `make install` (You may have to run this as root).
 
 **NOTE**: Truelies can be uninstalled easily using `make uninstall`. This removes
 all of files from your system.
