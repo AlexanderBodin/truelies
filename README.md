@@ -23,7 +23,7 @@ all of files from your system.
 does is move the files to a "sane" location. The Makefile is optional.
 
 ## Development
-To improve or suggest something simply open an issue or submit a Pull.
+To improve or suggest something simply open an issue or submit a Pull Request.
 
 ## Contributing
 1. Fork it (https://github.com/AlexanderBodin/truelies/fork)
