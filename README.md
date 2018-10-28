@@ -5,8 +5,8 @@
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/alexanderbodin/truelies.svg)
 ![GitHub All Releases](https://img.shields.io/github/downloads/alexanderbodin/truelies/total.svg)
 
-# :construction:
-
+## Usage
+![IMG](https://i.imgur.com/2j2DTLq.gif)
 
 ## Installation
 1. Git clone the repository.
