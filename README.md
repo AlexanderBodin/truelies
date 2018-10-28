@@ -22,5 +22,15 @@ all of files from your system.
 **NOTE**: You can run truelies from any folder on your system, all the makefile
 does is move the files to a "sane" location. The Makefile is optional.
 
+## Development
+To improve or suggest something simply open an issue or submit a Pull.
+
+## Contributing
+1. Fork it (https://github.com/AlexanderBodin/truelies/fork)
+2. Create your feature branch (*git checkout -b my-new-feature*)
+3. Commit your changes (*git commit -am 'Add some feature'*)
+4. Push to the branch (*git push origin my-new-feature*)
+5. Create a new Pull Request
+
 ## License
 [MIT 2018 Alexander Bodin](https://github.com/AlexanderBodin/truelies/blob/master/LICENSE)
