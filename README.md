@@ -1,4 +1,4 @@
-# Truelies
+# Truelies - A CLI truth table
 ![GitHub top language](https://img.shields.io/github/languages/top/alexanderbodin/truelies.svg)
 ![GitHub](https://img.shields.io/github/license/alexanderbodin/truelies.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/alexanderbodin/truelies.svg)
