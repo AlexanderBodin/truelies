@@ -3,7 +3,6 @@
 ![GitHub](https://img.shields.io/github/license/alexanderbodin/truelies.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/alexanderbodin/truelies.svg)
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/alexanderbodin/truelies.svg)
-![GitHub All Releases](https://img.shields.io/github/downloads/alexanderbodin/truelies/total.svg)
 
 ## Usage
 ![IMG](https://i.imgur.com/2j2DTLq.gif)
