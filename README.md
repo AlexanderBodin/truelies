@@ -15,10 +15,10 @@
     - `cd truelies`
 3. Install truelies using the Makefile.
     - `make install`
-    - **NOTE**: You may have to run this as root  🤖.
+    - **📌**: You may have to run this as root.
 
-**NOTE:** Truelies can be uninstalled easily using `make uninstall`. This removes
+**📌** Truelies can be uninstalled easily using `make uninstall`. This removes
 all of files from your system.
 
-**NOTE:** You can run truelies from any folder on your system, all the makefile
+**📌** You can run truelies from any folder on your system, all the makefile
 does is move the files to a "sane" location. The Makefile is optional.
