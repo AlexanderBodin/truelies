@@ -1,1 +1,81 @@
+#!/usr/bin/bash
+#
+#
+# Truelies: A command-line truth table output tool written in bash 4.4+
+# https://github.com/alexanderbodin/truelies
+#
+#
+# The MIT License (MIT)
+#
+# Copyright (c) 2018 Alexander Bodin
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+version="1.0"
+
+function display_not_table() { echo -e "
+\tNot \e[91mFalse\e[97m   = \e[34mTrue\e[97m
+\tNot \e[34mTrue\e[97m    = \e[91mFalse\e[97m
+"
+}
+
+function display_or_table() { echo -e "
+\t\e[91mFalse\e[97m or \e[91mFalse\e[97m    = \e[91mFalse\e[97m
+\t\e[91mFalse\e[97m or \e[34mTrue\e[97m     = \e[34mTrue\e[97m
+\t\e[34mTrue\e[97m  or \e[91mFalse\e[97m    = \e[34mTrue\e[97m
+\t\e[34mTrue\e[97m  or \e[34mTrue\e[97m     = \e[34mTrue\e[97m
+"
+}
+
+function display_and_table() { echo -e "
+\t\e[91mFalse\e[97m and \e[91mFalse\e[97m   = \e[91mFalse\e[97m
+\t\e[91mFalse\e[97m and \e[34mTrue\e[97m    = \e[91mFalse\e[97m
+\t\e[34mTrue\e[97m  and \e[91mFalse\e[97m   = \e[91mFalse\e[97m
+\t\e[34mTrue\e[97m  and \e[34mTrue\e[97m    = \e[34mTrue\e[97m
+"
+}
+
+function display_help() {
+echo "
+Usage: truelies                             Print table with AND, OR and NOT operator
+   or: truelies --<optional argmument>      Print table with specific operator
+
+Optional arguments:
+    --and   Print table with AND operator
+    --or    Print table with OR operator
+    --not   Print table with NOT operator
+    --help  Help
+    "
+}
+
+if [ $1 ]
+then
+    case $1 in
+       --and) display_and_table;;
+       --or) display_or_table;;
+       --not) display_not_table;;
+       --help) display_help;;
+    esac
+else 
+    display_and_table & 
+    display_or_table & 
+    display_not_table &
+    wait
+fi
 
