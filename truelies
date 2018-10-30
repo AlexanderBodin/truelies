@@ -51,15 +51,24 @@ function display_and_table() { echo -e "
 "
 }
 
+function display_xor_table() { echo -e "
+\t\e[91mFalse\e[97m xor \e[91mFalse\e[97m   = \e[91mFalse\e[97m
+\t\e[91mFalse\e[97m xor \e[34mTrue\e[97m    = \e[34mTrue\e[97m
+\t\e[34mTrue\e[97m  xor \e[91mFalse\e[97m   = \e[34mTrue\e[97m 
+\t\e[34mTrue\e[97m  xor \e[34mTrue\e[97m    = \e[91mFalse\e[97m
+"
+}
+
 function display_help() {
 echo "
-Usage: truelies                             Print table with AND, OR and NOT operator
+Usage: truelies                             Print table with AND, OR, XOR, NOT operator
    or: truelies --<optional argmument>      Print table with specific operator
 
 Optional arguments:
-    --and   Print table with AND operator
-    --or    Print table with OR operator
-    --not   Print table with NOT operator
+    --and   Print table with AND operator.
+    --or    Print table with OR operator.
+    --not   Print table with NOT operator.
+    --xor   Print table with XOR operator.
     --help  Help
     "
 }
@@ -70,12 +79,14 @@ then
        --and) display_and_table;;
        --or) display_or_table;;
        --not) display_not_table;;
+       --xor) display_xor_table;;
        --help) display_help;;
     esac
 else 
     display_and_table & 
     display_or_table & 
     display_not_table &
+    display_xor_table &
     wait
 fi
 
