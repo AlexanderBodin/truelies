@@ -26,9 +26,9 @@ To improve or suggest something simply open an issue or submit a Pull Request.
 
 ## Contributing
 1. Fork it (https://github.com/AlexanderBodin/truelies/fork)
-2. Create your feature branch (*git checkout -b my-new-feature*)
-3. Commit your changes (*git commit -am 'Add some feature'*)
-4. Push to the branch (*git push origin my-new-feature*)
+2. Create your feature branch | *Example*:`git checkout -b my-new-feature`)
+3. Commit your changes | *Example*:`git commit -am 'Add some feature'`)
+4. Push to the branch | *Example*:`git push origin my-new-feature`)
 5. Create a new Pull Request
 
 ## License
