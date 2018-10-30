@@ -11,6 +11,7 @@ install:
 	@cp -p truelies.1 $(DESTDIR)$(MANDIR)/man1
 	@chmod 755 $(DESTDIR)$(PREFIX)/bin/truelies
 	@echo You have successfully - installed - Truelies.
+
 uninstall:
 	@rm -rf $(DESTDIR)$(PREFIX)/bin/truelies
 	@rm -rf $(DESTDIR)$(MANDIR)/man1/truelies.1*
