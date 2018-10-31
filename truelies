@@ -27,7 +27,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-version="1.1"
+version="1.2"
 
 function display_not_table() { echo -e "
 \tNot \e[91mFalse\e[97m   = \e[34mTrue\e[97m
@@ -69,7 +69,8 @@ Optional arguments:
     --or    Print table with OR operator.
     --not   Print table with NOT operator.
     --xor   Print table with XOR operator.
-    --help  Help
+    --help  Shows help.
+    --version Shows version.
     "
 }
 
@@ -81,6 +82,7 @@ then
        --not) display_not_table;;
        --xor) display_xor_table;;
        --help) display_help;;
+       --version) echo "Version $version";;
     esac
 else 
     display_and_table & 
