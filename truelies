@@ -61,16 +61,16 @@ function display_xor_table() { echo -e "
 
 function display_help() {
 echo "
-Usage: truelies                             Print table with AND, OR, XOR, NOT operator
-   or: truelies --<optional argmument>      Print table with specific operator
+Usage: truelies                             Print table with <AND, OR, XOR, NOT> operator.
+   or: truelies --<optional argument>       Print table with specific operator.
 
 Optional arguments:
-    --and   Print table with AND operator.
-    --or    Print table with OR operator.
-    --not   Print table with NOT operator.
-    --xor   Print table with XOR operator.
-    --help  Shows help.
-    --version Shows version.
+    --and   	Print table with AND operator.
+    --or    	Print table with OR operator.
+    --not   	Print table with NOT operator.
+    --xor   	Print table with XOR operator.
+    --help  	Shows help.
+    --version 	Shows version.
     "
 }
 
