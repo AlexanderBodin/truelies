@@ -1,13 +1,13 @@
 #!/usr/bin/bash
 #
 #
-# Truelies: A command-line truth table output tool written in bash 4.4+
+# Truelies: A truth table command-line interface written in Bash 4.4+
 # https://github.com/alexanderbodin/truelies
 #
 #
 # The MIT License (MIT)
 #
-# Copyright (c) 2018 Alexander Bodin
+# Copyright (c) 2018 Alexander Bodin, https://github.com/AlexanderBodin
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
