@@ -1,5 +1,5 @@
 # Truelies
-> A truth table command-line interface written in Bash.
+> A truth-table for the command-line written in Bash.
 
 ![GitHub top language](https://img.shields.io/github/languages/top/alexanderbodin/truelies.svg)
 ![GitHub](https://img.shields.io/github/license/alexanderbodin/truelies.svg)
