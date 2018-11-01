@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 #
 #
-# Truelies: A truth table command-line interface written in Bash 4.4+
+# Truelies - A truth-table for the command-line.
 # https://github.com/alexanderbodin/truelies
 #
 #
