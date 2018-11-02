@@ -16,3 +16,13 @@ uninstall:
 	@rm -rf $(DESTDIR)$(PREFIX)/bin/truelies
 	@rm -rf $(DESTDIR)$(MANDIR)/man1/truelies.1*
 	@echo You have successfully - uninstalled - Truelies.
+
+update:
+	@echo Starting to Update Truelies.
+	@git pull
+	@rm -rf $(DESTDIR)$(PREFIX)/bin/truelies
+	@rm -rf $(DESTDIR)$(MANDIR)/man1/truelies.1*
+	@cp -p truelies $(DESTDIR)$(PREFIX)/bin/truelies
+	@cp -p truelies.1 $(DESTDIR)$(MANDIR)/man1      
+	@chmod 755 $(DESTDIR)$(PREFIX)/bin/truelies
+	@echo Done.
