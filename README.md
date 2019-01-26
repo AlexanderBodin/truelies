@@ -33,8 +33,5 @@ To improve or suggest something simply open an issue or submit a Pull Request.
 4. Push to the branch | *Example*:`git push origin my-new-feature`)
 5. Create a new Pull Request
 
-## Article
-https://medium.com/alexanderbodin/truelies-7f37a825051e
-
 ## License
 [MIT 2018 Alexander Bodin](https://github.com/AlexanderBodin/truelies/blob/master/LICENSE)
