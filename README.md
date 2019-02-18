@@ -1,5 +1,5 @@
 # Truelies
-> A truth-table for the command-line
+> A truth-table cheat sheet for the command-line
 
 ![GitHub top language](https://img.shields.io/github/languages/top/alexanderbodin/truelies.svg)
 ![GitHub](https://img.shields.io/github/license/alexanderbodin/truelies.svg)
