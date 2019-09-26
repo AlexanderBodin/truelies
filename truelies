@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 #
 #
 # Truelies - A truth-table for the command-line.
@@ -27,7 +27,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-version="1.3"
+version="1.4"
 
 function display_not_table() { echo -e "
 \tNot \e[91mFalse\e[97m   = \e[34mTrue\e[97m
